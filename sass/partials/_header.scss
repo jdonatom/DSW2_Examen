@@ -1,0 +1,37 @@
+header {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+ul {
+    display: flex;
+    flex-direction: row;
+    list-style-type: none;
+    gap: 48px;
+}
+
+a {
+    text-decoration-line: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+@media only screen and (max-width: 767px){
+    header {
+        flex-direction: column;
+    }
+
+    ul {
+        display: none;
+        flex-direction: column;
+        gap: 24px;
+    }
+
+    header:hover ul{
+        display: flex;
+        z-index: 100;
+    }
+}

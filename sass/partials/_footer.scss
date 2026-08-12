@@ -1,0 +1,16 @@
+footer small{
+    display: flex;
+    justify-content: center;
+}
+
+footer img {
+    position: absolute;
+    right: 0%;
+    bottom: 1%;
+}
+
+@media only screen and (max-width: 767px){
+    footer img {
+        width: 20%;
+    }
+}

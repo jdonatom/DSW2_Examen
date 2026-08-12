@@ -1,0 +1,13 @@
+body{
+    padding: 64px 120px 29px;
+    max-width: 1280px;
+    margin: 0 auto;
+    position: relative;
+}
+
+@media only screen and (max-width: 767px){
+    body{
+        padding: 16px 16px 29px;
+        width: 100%;
+    }
+}

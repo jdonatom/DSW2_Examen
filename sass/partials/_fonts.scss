@@ -1,0 +1,84 @@
+html {
+    font-size: 16px;
+}
+
+.logo {
+    color: $mainColor;
+    font-family: Inter;
+    font-size: 1.375rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 118%;
+}
+
+li a{
+    color: #1F1534;
+    font-family: Mulish;
+    font-size: 1.125rem; /* 18px */
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    opacity: 0.5;
+}
+
+li .active {
+    font-weight: 700;
+    opacity: 1;
+}
+
+h1 {
+    color: black;
+    font-family: Mulish;
+    font-size: 3rem; /* 48px */
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%;
+    text-transform: uppercase;
+}
+
+h1 span {
+    color: $mainColor;
+    font-weight: 700;
+}
+
+p {
+    color: $textColor;
+    font-family: "Open Sans";
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 160%;
+}
+
+p span {
+    font-weight: 700;
+}
+
+button {
+    color: $buttonTextColor;
+    font-family: "DM Sans";
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+small {
+    color: black;
+    text-align: center;
+    font-family: "Open Sans";
+    font-size: 0.875; /* 14px */
+    font-style: normal;
+    font-weight: 400;
+    line-height: 160%;
+}
+
+small strong {
+    font-weight: 700;
+}
+
+@media only screen and (max-width: 767px){
+    html {
+        font-size: 20px;
+    }
+}
